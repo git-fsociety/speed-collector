@@ -30,17 +30,3 @@ CREATE TABLE IF NOT EXISTS "collector" (
 """)
 print('Tabela criada com sucesso.')
 conn.close()
-
-
-
-# conn = sqlite3.connect('speedtest-collector.db')
-# cursor = conn.cursor()
-# cursor.execute("""
-# INSERT INTO bandwidth (serverid, sponsor, servername, times, distance, ping, download, upload)
-# VALUES ('Aloisio', 87, '11111111111', 'aloisio@email.com', '98765-4322', 'Porto Alegre', 'RS', '2014-06-09')
-# """)
-# conn.commit()
-
-# print('Dados inseridos com sucesso.')
-
-# conn.close()
