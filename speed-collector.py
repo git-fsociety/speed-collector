@@ -36,36 +36,6 @@ c_lat_cliente = cliente['lat']
 c_lon_cliente = cliente['lon']
 c_ips = cliente['isp']
 
-'''
-print(results_dict)
-print('~=' * 10)
-print('Servidor')
-print('~=' * 10)
-print(f'Download: {p_download}')
-print(f'Upload: {p_upload}')
-print(f'Ping: {p_ping}')
-print(f'Data Hora: {t_timestamp}')
-print(f'Bytes enviados: {t_bytes_sent}')
-print(f'Bytes recebidos: {t_bytes_received}')
-print(f'Evidencia: {t_share}')
-print(f'Server_url: {s_server_url}')
-print(f'Server_host: {s_server_host}')
-print(f'Server lat: {s_lat_server}')
-print(f'Server lon: {s_lon_server}')
-print(f'Pais: {s_country}')
-print(f'Sponsor: {s_sponsor}')
-print(f'Latency: {s_latency}')
-
-
-print('~=' * 10)
-print('Cliente')
-print('~=' * 10)
-print(f'Cliente IP: {c_ip}')
-print(f'Cliente lat: {c_lat_cliente}')
-print(f'Cliente lon: {c_lon_cliente}')
-print(f'Provedor: {c_ips}')
-'''
-
 conn = sqlite3.connect('speedtest-collector.db')
 cursor = conn.cursor()
 
